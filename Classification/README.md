@@ -1,18 +1,18 @@
 # REVIEW 1 – Machine Learning Project
 
-## RT-IoT2022 Network Traffic Classification
+## RT-IOT2022 Classification
 
 ### Project Overview
 
-This project focuses on applying machine learning techniques to classify network traffic using the **RT-IoT2022 dataset**. The dataset contains network traffic information collected from IoT environments, including both normal and attack traffic.
+This project focuses on applying machine learning techniques to classify network traffic using the **RT-IOT2022 dataset**. The dataset contains network traffic information collected from IoT environments, including both normal and attack traffic.
 
 The main objective of this project is to explore the dataset, preprocess the data, perform feature engineering, and build classification models that can identify the type of network traffic based on its characteristics.
 
 ### Dataset
 
-The **RT-IoT2022 dataset** is obtained from the UCI Machine Learning Repository.
+The **RT-IOT2022 dataset** is obtained from the UCI Machine Learning Repository.
 
-**Dataset:** RT-IoT2022
+**Dataset:** RT-IOT2022
 **Task:** Multi-class Classification
 **Target Variable:** `Attack_type`
 **Number of Instances:** 123,117
@@ -52,7 +52,7 @@ The project is divided into the following stages:
 
    * Logistic Regression
    * Decision Tree Classifier
-   * Random Forest Classifier
+   * Support Vector Classifier(SVC)
    * K-Nearest Neighbors (KNN)
    * Gaussian Naive Bayes
 
@@ -76,25 +76,10 @@ The project is divided into the following stages:
 * Seaborn
 * Scikit-learn
 
-### Project Structure
-
-```text
-Machine-Learning-Project/
-│
-├── RT_IoT2022.CSV
-├── RT_IoT2022_Classification.ipynb
-└── README.md
-```
 
 ### Expected Outcome
 
 The project demonstrates the complete machine learning workflow, starting from exploratory data analysis and preprocessing to classification model training and evaluation.
 
 The final results provide a comparison of multiple machine learning approaches for classifying different types of IoT network traffic using the RT-IoT2022 dataset.
-
-### Dataset Reference
-
-Sharmila, B. S. and Rohini Nagapadma.
-**RT-IoT2022.** UCI Machine Learning Repository, 2023.
-
 
