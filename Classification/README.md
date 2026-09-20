@@ -1,15 +1,14 @@
+# REVIEW 1 – Machine Learning Project
 
-REVIEW 1 – Machine Learning Project
+## RT-IoT2022 Network Traffic Classification
 
-RT-IoT2022 Network Traffic Classification
-
-Project Overview
+### Project Overview
 
 This project focuses on applying machine learning techniques to classify network traffic using the **RT-IoT2022 dataset**. The dataset contains network traffic information collected from IoT environments, including both normal and attack traffic.
 
 The main objective of this project is to explore the dataset, preprocess the data, perform feature engineering, and build classification models that can identify the type of network traffic based on its characteristics.
 
-Dataset
+### Dataset
 
 The **RT-IoT2022 dataset** is obtained from the UCI Machine Learning Repository.
 
@@ -53,7 +52,7 @@ The project is divided into the following stages:
 
    * Logistic Regression
    * Decision Tree Classifier
-   * Support Vector Classifier
+   * Random Forest Classifier
    * K-Nearest Neighbors (KNN)
    * Gaussian Naive Bayes
 
@@ -67,7 +66,7 @@ The project is divided into the following stages:
 
    The results are compared to understand how the different models perform on the multi-class network traffic classification task.
 
-Technologies Used
+### Technologies Used
 
 * Python
 * Jupyter Notebook
@@ -77,7 +76,7 @@ Technologies Used
 * Seaborn
 * Scikit-learn
 
-Project Structure
+### Project Structure
 
 ```text
 Machine-Learning-Project/
@@ -87,13 +86,13 @@ Machine-Learning-Project/
 └── README.md
 ```
 
-Expected Outcome
+### Expected Outcome
 
 The project demonstrates the complete machine learning workflow, starting from exploratory data analysis and preprocessing to classification model training and evaluation.
 
 The final results provide a comparison of multiple machine learning approaches for classifying different types of IoT network traffic using the RT-IoT2022 dataset.
 
-Dataset Reference
+### Dataset Reference
 
 Sharmila, B. S. and Rohini Nagapadma.
 **RT-IoT2022.** UCI Machine Learning Repository, 2023.
