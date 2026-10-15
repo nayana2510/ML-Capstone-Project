@@ -1,53 +1,48 @@
-# Regression Track – Appliances Energy Prediction
+# Regression – Appliances Energy Prediction
 
-## Overview
+## Project Overview
+This project focuses on predicting appliance energy consumption using the Appliances Energy Prediction dataset. Regression techniques are used to understand the relationship between input features and energy consumption.
 
-This project focuses on predicting household appliance energy consumption using machine learning regression techniques.
+## Objective
+To build and evaluate regression models that estimate appliance energy consumption from available environmental and sensor measurements.
 
 ## Dataset
+**Name:** Appliances Energy Prediction  
+**Target variable:** `Appliances`
 
-**Dataset:** Appliances Energy Prediction  
-**File:** `energydata_complete.csv`  
-**Target:** `Appliances`
+The dataset contains appliance energy consumption measurements and environmental variables.
 
-The dataset contains household energy, temperature, humidity, weather, lighting, and time-related features.
+## Methodology
+1. Load and inspect the dataset.
+2. Check for missing values and duplicate records.
+3. Perform exploratory data analysis.
+4. Visualize relationships between features and energy consumption.
+5. Preprocess the data and prepare the input features.
+6. Split the dataset into training and testing sets.
+7. Train suitable regression algorithms.
+8. Evaluate and compare model performance.
 
-## Preprocessing
+## Tools and Libraries
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-- Checked missing values and duplicates
-- Removed `rv1` and `rv2`
-- Extracted time-based features from `date`
-- Detected and treated outliers using IQR
-- Performed train-test split and feature scaling
+## Evaluation Metrics
+- **MAE:** Mean Absolute Error
+- **RMSE:** Root Mean Squared Error
+- **R² Score:** Measures how well the model explains variation in the target variable.
 
-## Models
+## Expected Outcome
+The project aims to identify suitable regression models for predicting appliance energy consumption and compare their performance using evaluation metrics.
 
-10 regression algorithms were implemented:
+## How to Run
+1. Open `Appliances_Energy_Prediction.ipynb` in Jupyter Notebook.
+2. Ensure the dataset file is available at the path specified in the notebook.
+3. Install the required libraries.
+4. Execute the notebook cells in sequence.
 
-- Linear Regression
-- Ridge
-- Lasso
-- ElasticNet
-- Polynomial Regression
-- Decision Tree
-- Random Forest
-- Gradient Boosting
-- SVR
-- KNN
-
-## Evaluation
-
-Models were evaluated using **R², RMSE, and MAE**.  
-Hyperparameter tuning using **GridSearchCV** and 5-fold cross-validation were also performed.
-
-## Tools
-
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook
-
-## Project Structure
-
-```text
-Regression/
-├── Appliances_Energy_Prediction.ipynb
-├── energydata_complete.csv
-└── README.md
+## Conclusion
+This project demonstrates how regression can be applied to energy-consumption prediction and how model evaluation helps determine the suitability of different algorithms.
