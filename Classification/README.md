@@ -1,85 +1,51 @@
-# REVIEW 1 – Machine Learning Project
+# Classification – RT-IoT2022
 
-## RT-IOT2022 Classification
+## Project Overview
+This project applies machine learning classification techniques to the RT-IoT2022 dataset. The aim is to learn patterns from IoT network traffic data and predict the corresponding target class.
 
-### Project Overview
+## Objective
+To train and evaluate classification models for identifying categories of IoT network traffic.
 
-This project focuses on applying machine learning techniques to classify network traffic using the **RT-IOT2022 dataset**. The dataset contains network traffic information collected from IoT environments, including both normal and attack traffic.
+## Dataset
+**Name:** RT-IoT2022
 
-The main objective of this project is to explore the dataset, preprocess the data, perform feature engineering, and build classification models that can identify the type of network traffic based on its characteristics.
+The dataset contains network traffic features that can be used for machine learning-based traffic classification.
 
-### Dataset
+## Methodology
+1. Load and understand the dataset.
+2. Inspect data types, missing values, and duplicates.
+3. Perform exploratory data analysis.
+4. Prepare features and target labels.
+5. Encode categorical variables where necessary.
+6. Split the dataset into training and testing sets.
+7. Train classification algorithms.
+8. Generate predictions.
+9. Evaluate and compare model performance.
+10. Visualize the results.
 
-The **RT-IOT2022 dataset** is obtained from the UCI Machine Learning Repository.
+## Tools and Libraries
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-**Dataset:** RT-IOT2022
-**Task:** Multi-class Classification
-**Target Variable:** `Attack_type`
-**Number of Instances:** 123,117
-**Domain:** IoT Network Security / Intrusion Detection
+## Evaluation Metrics
+- **Accuracy:** Percentage of correctly classified instances.
+- **Precision:** Proportion of predicted positive cases that are correct.
+- **Recall:** Proportion of actual positive cases correctly identified.
+- **F1-score:** Harmonic mean of precision and recall.
+- **Confusion Matrix:** Shows correct and incorrect predictions by class.
 
-**Dataset Source:**
-https://archive.ics.uci.edu/dataset/942/rt-iot2022
+## Expected Outcome
+The project aims to identify suitable classification models and analyze their effectiveness in classifying IoT network traffic.
 
-### Project Workflow
+## How to Run
+1. Open `RT_IoT2022.ipynb` in Jupyter Notebook.
+2. Ensure the dataset is available at the required path.
+3. Install the required libraries.
+4. Execute the notebook cells in sequence.
 
-The project is divided into the following stages:
-
-1. **Exploratory Data Analysis**
-
-   * Understanding the dataset structure
-   * Checking data types and dataset dimensions
-   * Checking missing values and duplicate records
-   * Studying the distribution of attack classes
-   * Analysing numerical and categorical features
-   * Visualising correlations and feature relationships
-   * Inspecting outliers
-
-2. **Data Preprocessing and Feature Engineering**
-
-   * Removing unnecessary index columns
-   * Removing constant features
-   * Checking infinite values
-   * Handling potential outliers using IQR-based capping
-   * Splitting the dataset into training and testing sets
-   * Encoding categorical features using One-Hot Encoding
-   * Scaling numerical features using StandardScaler
-   * Creating additional network traffic features
-
-3. **Classification Model Development**
-
-   Five classification algorithms are implemented:
-
-   * Logistic Regression
-   * Decision Tree Classifier
-   * Support Vector Classifier(SVC)
-   * K-Nearest Neighbors (KNN)
-   * Gaussian Naive Bayes
-
-4. **Model Evaluation**
-
-   The classification models are evaluated using:
-
-   * Accuracy
-   * Weighted F1-score
-   * Confusion Matrix
-
-   The results are compared to understand how the different models perform on the multi-class network traffic classification task.
-
-### Technologies Used
-
-* Python
-* Jupyter Notebook
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-
-
-### Expected Outcome
-
-The project demonstrates the complete machine learning workflow, starting from exploratory data analysis and preprocessing to classification model training and evaluation.
-
-The final results provide a comparison of multiple machine learning approaches for classifying different types of IoT network traffic using the RT-IoT2022 dataset.
-
+## Conclusion
+This project demonstrates the application of supervised machine learning for network traffic classification and performance evaluation.
