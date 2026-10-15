@@ -1,64 +1,50 @@
-# Machine Learning Capstone Project – Review 1
+# Machine Learning Capstone Project – Review 2
 
 ## Project Overview
+This project explores three major machine learning approaches: Regression, Classification, and Clustering. It demonstrates how machine learning techniques can be applied to different datasets to make predictions, classify data, and discover hidden patterns.
 
-This project applies machine learning techniques to two different datasets:
+## Objectives
+- Understand data preprocessing and exploratory data analysis.
+- Apply machine learning algorithms to different datasets.
+- Train and evaluate suitable models.
+- Compare model performance using appropriate metrics.
+- Visualize results and interpret findings.
 
-- **Regression** – Appliances Energy Prediction
-- **Classification** – RT-IoT2022
+## Project Tracks
 
-## Review 1 Work
-
-The following stages were completed:
-
-- Dataset selection and understanding
-- Data loading and preprocessing
-- Missing-value and duplicate-value analysis
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- Outlier detection and treatment
-- Feature scaling
-- Model implementation
-- Model evaluation and comparison
-- Hyperparameter tuning
-- Cross-validation
-- Visualization and model interpretation
-
-## Tracks
-
-### Regression
+### 1. Regression
 **Dataset:** Appliances Energy Prediction  
-**Target:** `Appliances`
+**Objective:** Predict appliance energy consumption using environmental and sensor-related features.
 
-10 regression algorithms were implemented and evaluated using R², RMSE, and MAE.
+### 2. Classification
+**Dataset:** RT-IoT2022  
+**Objective:** Classify IoT network traffic using relevant network features.
 
-### Classification
-**Dataset:** RT-IoT2022
+### 3. Clustering
+**Dataset:** Water Treatment Plant Dataset  
+**Objective:** Discover groups and patterns in water treatment plant data using unsupervised learning.
 
-Classification algorithms were implemented and evaluated using appropriate classification metrics.
-
-## Tools and Technologies
-
+## Technologies Used
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Pandas and NumPy
+- Matplotlib and Seaborn
 - Scikit-learn
 - Jupyter Notebook
+- Git and GitHub
 
-## Project Structure
+## General Workflow
+1. Dataset collection and understanding
+2. Data preprocessing
+3. Exploratory data analysis
+4. Feature engineering
+5. Model implementation
+6. Model evaluation
+7. Result visualization and interpretation
 
-```text
-ML-Capstone-Project/
-│
-├── Regression/
-│   ├── Appliances_Energy_Prediction.ipynb
-│   ├── energydata_complete.csv
-│   └── README.md
-│
-├── Classification/
-│   ├── RT_IoT2022.ipynb
-│   └── README.md
-│
-└── README.md
+## Repository Structure
+- `Regression/` – Regression notebook and dataset
+- `Classification/` – Classification notebook and dataset, if included
+- `Clustering/` – Clustering notebook and related files
+
+## Conclusion
+This project provides practical experience in applying supervised and unsupervised machine learning techniques to different real-world problems.
